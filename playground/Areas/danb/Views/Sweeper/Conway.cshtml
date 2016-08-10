@@ -1,0 +1,28 @@
+﻿@Model ConwayModel;
+
+@{
+    ViewBag.Title = "Conway";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Conway</h2>
+<font size="-50">
+    <table>
+        @for (int y = 0; y < Model.Height; y++)
+        {
+            <tr>
+                @for (int x = 0; x < Model.Width; x++)
+                {
+                    if (Model.IsCellAliveAt(x, y))
+                    {
+                        <td>X</td>
+                    }
+                    else
+                    {
+                        <td>.</td>
+                    }
+                }
+            </tr>
+        }
+    </table>
+</font>

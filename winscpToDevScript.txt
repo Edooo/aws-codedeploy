@@ -1,0 +1,28 @@
+
+option batch abort
+option confirm off
+
+open ftp://BuildDeploy:%2%@%1%.myib.com -implicit -certificate="27:85:96:97:3e:50:3f:bd:59:48:22:c6:52:95:85:07:c2:89:61:de"
+
+echo Synchronizing "unity (UDP) to DEV" ...
+cd /WebSites/myib.com/extranet.myib.com/playground
+
+echo Make sure server folders are build
+option batch continue
+mkdir App_Code
+mkdir App_Code/cs_code
+mkdir App_Code/vb_code
+mkdir App_Data
+option batch abort
+
+synchronize remote -delete -filemask="*.cshtml;*.config" Areas Areas
+synchronize remote -delete -filemask="*.dll" bin bin
+synchronize remote -delete Content Content
+synchronize remote -delete fonts fonts
+synchronize remote -delete Scripts Scripts
+synchronize remote -delete Views Views
+synchronize remote -delete -filemask="favicon.ico"
+synchronize remote -delete -filemask="Global.asax"
+synchronize remote -delete -filemask="Web.config"
+
+exit
