@@ -140,6 +140,7 @@
     <Compile Include="Areas\Danb\Models\EdiSax.cs" />
     <Compile Include="Areas\Danb\Models\RockPaperScissorsModel.cs" />
     <Compile Include="Areas\Danb\Models\SweeperModel.cs" />
+    <Compile Include="Areas\EdinK\EdinKAreaRegistration.cs" />
     <Compile Include="Areas\JoshuaD\Controllers\IndexController.cs" />
     <Compile Include="Areas\JoshuaD\JoshuaDAreaRegistration.cs" />
     <Compile Include="Areas\JoshuaD\Models\AnimalModel.cs" />
@@ -205,6 +206,7 @@
     <Content Include="Areas\Danb\Views\Edi\Index.cshtml" />
     <Content Include="Areas\LongTasks\Views\web.config" />
     <Content Include="Areas\Danb\Views\Chess\Index.cshtml" />
+    <Content Include="Areas\EdinK\Views\web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -245,6 +247,9 @@
     <Folder Include="Areas\api\Views\Containers\" />
     <Folder Include="Areas\api\Views\Railcars\" />
     <Folder Include="Areas\api\Views\Shared\" />
+    <Folder Include="Areas\EdinK\Controllers\" />
+    <Folder Include="Areas\EdinK\Models\" />
+    <Folder Include="Areas\EdinK\Views\Shared\" />
     <Folder Include="Areas\LongTasks\Models\" />
     <Folder Include="Areas\LongTasks\Views\Default\" />
     <Folder Include="Areas\LongTasks\Views\Shared\" />
