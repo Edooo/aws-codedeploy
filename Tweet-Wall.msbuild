@@ -2,7 +2,7 @@
          DefaultTargets="RunUnitTests">
   <ItemGroup>
     <BuildArtifactsDir Include="BuildArtifacts\" />
-    <SolutionFile Include="playground.sln" />
+    <SolutionFile Include="Tweet-Wall.sln" />
     <NUnitConsole Include="C:\Program Files (x86)\NUnit 2.6.4\bin\nunit-console.exe" />
     <TestResultsPath Include="BuildArtifacts\TestResults.xml" />
     <NuGetPackageConfigs Include="packages.config" />
