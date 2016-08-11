@@ -37,9 +37,10 @@
 	<!-- The LoadNuGetPackages Target -->
 	<Target Name="LoadNuGetPackages">
 		<Message Importance="high" Text="Retrieving packages" />
+		
+		<Exec Command="nuget install -source http://nuget.myib.com/nuget -source https://www.nuget.org/api/v2/" />
 		<Exec Command='nuget restore "@(SolutionFile)"' />
 		<Exec Command='nuget install playground.Tests\packages.config' />
-		<!--<Exec Command="nuget install -source http://nuget.myib.com/nuget -source https://www.nuget.org/api/v2/" />-->
 	</Target>
 	
 </Project>
