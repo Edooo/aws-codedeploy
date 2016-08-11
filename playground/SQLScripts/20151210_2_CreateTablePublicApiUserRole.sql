@@ -1,8 +1,0 @@
-﻿-- comment
-CREATE TABLE [NewExtranetDB].[dbo].[PublicApiUserRole] (
-  Id INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
-  PublicApiUserId INT NOT NULL CONSTRAINT FK_UserId FOREIGN KEY REFERENCES PublicApiUser(Id) ON DELETE CASCADE,
-  PublicApiRoleId INT NOT NULL CONSTRAINT FK_RoleId FOREIGN KEY REFERENCES PublicApiRole(Id) ON DELETE CASCADE
-  --CONSTRAINT FK_PublicApiUserRole_UserId FOREIGN KEY (PublicApiUserId) REFERENCES PublicApiUser (id),
-  --CONSTRAINT FK_PublicApiUserRole_RoleId FOREIGN KEY (PublicApiRoleId) REFERENCES PublicApiRole (id)
-);
