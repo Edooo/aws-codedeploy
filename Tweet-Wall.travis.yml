@@ -1,0 +1,6 @@
+language: csharp
+solution: Tweet-Wall.sln
+before_install:
+  - sudo apt-get install nunit-console
+before_script:
+  - nuget restore Tweet-Wall.sln
