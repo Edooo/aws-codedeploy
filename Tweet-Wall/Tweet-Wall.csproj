@@ -249,6 +249,7 @@
     <Content Include="Areas\EdinK\Views\_ViewStart.cshtml" />
     <Content Include="Areas\EdinK\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\EdinK\Views\Index.cshtml" />
+    <Content Include="Areas\EdinK\Views\Index\Index.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -310,7 +311,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\EdinK\Models\" />
-    <Folder Include="Areas\EdinK\Views\Index\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
