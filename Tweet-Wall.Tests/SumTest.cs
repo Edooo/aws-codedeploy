@@ -1,6 +1,4 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using Assert = NUnit.Framework.Assert;
 
 namespace Tweet_Wall.Tests
@@ -11,9 +9,9 @@ namespace Tweet_Wall.Tests
         [Test]
         public void AssertThatSumOfTwoNumbersIsCorrect()
         {
-            int actual = 3 + 6;
+            int actual = 3 + 7;
 
-            Assert.AreEqual( 9, actual );
+            Assert.AreEqual( 10, actual );
         }
     }
 }
