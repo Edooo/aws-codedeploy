@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tweet-Wall", "Tweet-Wall\Tweet-Wall.csproj", "{08289981-A071-4710-9CFE-914C0E54F569}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tweet-Wall.Tests", "Tweet-Wall.Tests\Tweet-Wall.Tests.csproj", "{0BDA108A-0921-4BBE-B06C-1ED58C3A655B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{08289981-A071-4710-9CFE-914C0E54F569}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08289981-A071-4710-9CFE-914C0E54F569}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08289981-A071-4710-9CFE-914C0E54F569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BDA108A-0921-4BBE-B06C-1ED58C3A655B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BDA108A-0921-4BBE-B06C-1ED58C3A655B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BDA108A-0921-4BBE-B06C-1ED58C3A655B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BDA108A-0921-4BBE-B06C-1ED58C3A655B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
